@@ -1,0 +1,5 @@
+steps:
+  - name: build
+    image: docker.io/library/alpine:latest
+    commands:
+      - echo "This is the build step"
