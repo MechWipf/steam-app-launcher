@@ -1,5 +1,11 @@
 {
-    "folders": [{
-        "path": "."
-    }]
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "editor.formatOnSave": true,
+        "rust-analyzer.check.command": "clippy",
+    }
 }
