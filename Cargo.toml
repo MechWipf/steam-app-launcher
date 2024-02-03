@@ -6,3 +6,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+keyvalues-serde = { git = "https://github.com/CosmicHorrorDev/vdf-rs.git", rev = "3cb3c74e4aeb9c87359b8da77891c47c065884bc" }
+keyvalues-parser = { git = "https://github.com/CosmicHorrorDev/vdf-rs.git", rev = "3cb3c74e4aeb9c87359b8da77891c47c065884bc" }
+serde = { version = "1.0.189", features = ["derive"] }
+color-eyre = "0.6.2"
+thiserror = "1.0.50"
+itertools = "0.11.0"
