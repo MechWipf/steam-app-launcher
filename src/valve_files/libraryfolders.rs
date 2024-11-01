@@ -20,7 +20,7 @@ pub struct Library {
     #[serde(rename = "totalsize")]
     pub total_size: u128,
     pub update_clean_bytes_tally: String,
-    pub time_last_update_corruption: String,
+    pub time_last_update_verified: String,
     pub apps: HashMap<u64, u128>,
 }
 
